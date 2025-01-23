@@ -97,8 +97,8 @@
             bindings = <
 &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp POUND              &kp DOLLAR   &kp PERCENT                                   &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3          &bt BT_SEL 4
 &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL    &kp TILDE         &kp PIPE    &kp LEFT_BRACE  &kp GRAVE         &kp PLUS      &kp ASTERISK    &kp RIGHT_BRACE       &kp LESS_THAN
-&kp              &kp                   &kp                    &kp          &kp               &kp         &kp LESS_THAN   &kp GREATER_THAN  &kp QUESTION  &kp UNDERSCORE  &kp NON_US_BACKSLASH  &bt BT_CLR
-&kp MINUS        &kp CARET             &kp NON_US_BACKSLASH   &kp AT_SIGN  &kp LEFT_BRACKET  &kp         &kp             &kp                                                                   &bt BT_CLR_ALL
+&none            &none                 &none                  &none        &none             &none       &kp LESS_THAN   &kp GREATER_THAN  &kp QUESTION  &kp UNDERSCORE  &kp NON_US_BACKSLASH  &bt BT_CLR
+&kp MINUS        &kp CARET             &kp NON_US_BACKSLASH   &kp AT_SIGN  &kp LEFT_BRACKET  &none       &none           &none                                                                 &bt BT_CLR_ALL
             >;
 
             sensor-bindings = <&scroll_up_down>;
