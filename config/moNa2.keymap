@@ -62,7 +62,7 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE           &kp DOUBLE_QUOTES  &kt LEFT_PARENTHESIS  &kt RIGHT_PARENTHESIS  &kp EXCLAMATION                                &kp N7        &kp N8        &kp N9        &kp MINUS    &kp BACKSPACE
+&kp ESCAPE          &kp DOUBLE_QUOTES  &kt LEFT_PARENTHESIS  &kt RIGHT_PARENTHESIS  &kp EXCLAMATION                                &kp N7        &kp N8        &kp N9        &kp MINUS    &kp BACKSPACE
 &kp TAB             &kp PERCENT        &kt LEFT_BRACE        &kt RIGHT_BRACE        &kp QUESTION     &trans         &kp AMPERSAND  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_PLUS  &kp DOUBLE_QUOTES
 &kp LS(UNDERSCORE)  &trans             &kt LEFT_BRACKET      &kt RIGHT_BRACKET      &kp AMPERSAND    &kp PERCENT    &kp N0         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL    &kp SLASH
 &trans              &trans             &trans                &trans                 &trans           &trans         &trans         &trans                                                 &kp APOS
@@ -74,7 +74,7 @@
         layer_2 {
             bindings = <
 &kp ESC                     &kp DOUBLE_QUOTES  &kp HASH         &kp DOLLAR       &kp PERCENT                                                     &kp AMPERSAND     &kp SQT            &kp LEFT_PARENTHESIS  &kp MINUS    &kp BACKSPACE
-&kp LANG_ZENKAKUHANKAKU     &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))    &kp LEFT_PARENTHESIS   &kp EXCLAMATION   &kp AT_SIGN        &kp HASH              &kp AT_SIGN  &kp LEFT_BRACKET
+&kp GRAVE                   &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))    &kp LEFT_PARENTHESIS   &kp EXCLAMATION   &kp AT_SIGN        &kp HASH              &kp AT_SIGN  &kp LEFT_BRACKET
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp COLON    &kp RIGHT_BRACKET
 &trans                      &trans             &trans           &trans           &trans        &trans                     &trans                 &trans                                                                  &kp PIPE
             >;
