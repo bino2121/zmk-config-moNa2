@@ -49,7 +49,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R      &kp T                                &kp Y    &kp U  &kp I      &kp O       &kp P
 &kp A             &kp S         &kp D         &kp F      &kp G      &mkp MCLK      &mkp MCLK  &kp H    &kp J  &kp K      &kp L       &kp ENTER
-&mt LEFT_SHIFT Z  &kp Z         &kp X         &kp C      &kp V      &kp B          &kp N      &kp N    &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
+&mt LEFT_SHIFT Z  &kp Z         &kp X         &kp C      &kp V      &kp B          &sl 10     &kp N    &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mkp LCLK  &mkp RCLK  &lt 3 SPACE    &lt 2 A    &lt 1 A                                &kp SEMICOLON
             >;
 
@@ -152,6 +152,19 @@
 &kp A             &kp S         &kp D         &kp F      &kp G      &mkp MCLK      &mkp MCLK  &kp H    &kp J  &kp K      &kp L       &kp ENTER
 &mt LEFT_SHIFT Z  &kp Z         &kp X         &kp C      &kp V      &kp B          &kp N      &kp N    &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mkp LCLK  &mkp RCLK  &lt 6 SPACE    &lt 2 A    &lt 1 A                                &kp SEMICOLON
+            >;
+
+            sensor-bindings =
+                <&scroll_up_down>,
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+        };
+
+        layer_10 {
+            bindings = <
+&kp Q             &kp W         &kp E         &kp R      &kp T                                &kp Y      &kp U  &kp I      &kp O       &kp P
+&kp A             &kp S         &kp D         &kp F      &kp G      &mkp MCLK      &mkp MCLK  &kp H      &kp J  &kp K      &kp L       &kp ENTER
+&mt LEFT_SHIFT Z  &kp Z         &kp X         &kp C      &kp V      &kp B          &sl 0      &kp N      &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mkp LCLK  &mkp RCLK  &lt 3 SPACE    &mkp RCLK  &mkp LCLK                                &kp SEMICOLON
             >;
 
             sensor-bindings =
